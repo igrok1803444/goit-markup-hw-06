@@ -26,10 +26,12 @@
           >
           <ul class="nav-list list">
             <li class="nav-list-item">
-              <a href="./index.html" class="nav-link link active">Studio</a>
+              <a href="./index.html" class="nav-link link">Studio</a>
             </li>
             <li class="nav-list-item">
-              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+              <a href="./portfolio.html" class="nav-link link active"
+                >Portfolio</a
+              >
             </li>
             <li class="nav-list-item">
               <a href="" class="nav-link link">Contacts</a>
@@ -357,6 +359,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-form-container">
+          <form class="footer-form">
+            <label for="footer-email" class="footer-formfield">
+              <span class="footer-formfield-label">Subscribe</span>
+              <input
+                type="email"
+                id="footer-email"
+                name="footer-email"
+                class="footer-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+
+            <button type="submit" class="footer-submit-button btn">
+              <span class="submit-desc">Subscribe</span>
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#telegram-icon"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
